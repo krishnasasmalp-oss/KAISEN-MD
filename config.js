@@ -10,7 +10,7 @@ const toBool = (x) => x === 'true';
 const DB_URL = process.env.DATABASE_URL || '';
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || '', // add your session id here
+  SESSION_ID: process.env.SESSION_ID || 'KAISEN~S8J2iKCA#lEZ8xdcaLAwrQPTXfNK81yjUexsDQBa7fR7LJmU5g_c', // add your session id here
 
   HEROKU: {
     API_KEY: process.env.HEROKU_API_KEY,
@@ -27,7 +27,7 @@ module.exports = {
   ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || 'false'),
   PM_BLOCK: process.env.PM_BLOCK || 'false',
   BGMBOT: toBool(process.env.BGMBOT || 'false'),
-  STATUS_VIEW: process.env.STATUS_VIEW || 'false',
+  STATUS_VIEW: process.env.STATUS_VIEW || 'true',
   SAVE_STATUS: toBool(process.env.SAVE_STATUS || 'false'),
   DISABLE_PM: toBool(process.env.DISABLE_PM || 'false'),
   DISABLE_GRP: toBool(process.env.DISABLE_GRP || 'false'),
@@ -38,10 +38,10 @@ module.exports = {
   WARNCOUND: parseInt(process.env.WARNCOUND || '5'),
   BOT_INFO: process.env.BOT_INFO || 'KAISEN-BOT-MD;https://files.catbox.moe/m6h9pp.mp4',
   WORKTYPE: process.env.WORKTYPE || 'public',
-  CMD_NAME: process.env.CMD_NAME || '© ᴘσωєʀє∂ ву 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀',
+  CMD_NAME: process.env.CMD_NAME || '© ᴘσωєʀє∂ ву DARK SOUMYA⎯꯭̽💀',
   PREFIX: process.env.PREFIX || '[.,!]',
   PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || 'null',
-  BOT_PRESENCE: process.env.BOT_PRESENCE || 'unavailable',
+  BOT_PRESENCE: process.env.BOT_PRESENCE || 'available',
 
   AUDIO_DATA: process.env.AUDIO_DATA || 'KAISEN-BOT-MD;bot;https://i.imgur.com/DyLAuEh.jpg',
   STICKER_DATA: process.env.STICKER_DATA || 'KAISEN;bot',
